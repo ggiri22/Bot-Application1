@@ -180,8 +180,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\MessageTranslator.cs" />
     <Compile Include="Tools\SpeechVariations.cs" />
     <Compile Include="Tools\SendMail.cs" />
+    <Compile Include="Tools\TranslationContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
